@@ -17,5 +17,15 @@ namespace EgitimKurumTakipSistemi.UI.WinForm.Forms.BaseForms
         {
             InitializeComponent();
         }
+
+        private void btnKaydet_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+
+        }
+
+        private void BaseCardUC_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
