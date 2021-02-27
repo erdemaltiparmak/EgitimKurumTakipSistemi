@@ -36,12 +36,12 @@ namespace EgitimKurumTakipSistemi.UI.WinForm.Forms.BaseForms
             this.btnGeriAl = new DevExpress.XtraBars.BarButtonItem();
             this.btnCikis = new DevExpress.XtraBars.BarButtonItem();
             this.statusBarAciklama = new DevExpress.XtraBars.BarStaticItem();
+            this.statusBarKisayol = new DevExpress.XtraBars.BarStaticItem();
+            this.statusBarKisayolAciklama = new DevExpress.XtraBars.BarStaticItem();
             this.ribbonPage1 = new DevExpress.XtraBars.Ribbon.RibbonPage();
             this.ribbonPageGroup1 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.ribbonStatusBar1 = new DevExpress.XtraBars.Ribbon.RibbonStatusBar();
             this.ribbonPage2 = new DevExpress.XtraBars.Ribbon.RibbonPage();
-            this.statusBarKisayol = new DevExpress.XtraBars.BarStaticItem();
-            this.statusBarKisayolAciklama = new DevExpress.XtraBars.BarStaticItem();
             ((System.ComponentModel.ISupportInitialize)(this.ribbonControl)).BeginInit();
             this.SuspendLayout();
             // 
@@ -73,7 +73,7 @@ namespace EgitimKurumTakipSistemi.UI.WinForm.Forms.BaseForms
             this.ribbonControl.ShowPageHeadersMode = DevExpress.XtraBars.Ribbon.ShowPageHeadersMode.Hide;
             this.ribbonControl.ShowQatLocationSelector = false;
             this.ribbonControl.ShowToolbarCustomizeItem = false;
-            this.ribbonControl.Size = new System.Drawing.Size(566, 132);
+            this.ribbonControl.Size = new System.Drawing.Size(641, 132);
             this.ribbonControl.StatusBar = this.ribbonStatusBar1;
             this.ribbonControl.Toolbar.ShowCustomizeItem = false;
             // 
@@ -118,8 +118,8 @@ namespace EgitimKurumTakipSistemi.UI.WinForm.Forms.BaseForms
             // 
             this.btnCikis.Caption = "Çıkış";
             this.btnCikis.Id = 5;
-            this.btnCikis.ImageOptions.Image = global::EgitimKurumTakipSistemi.UI.WinForm.Properties.Resources.close_16x16;
-            this.btnCikis.ImageOptions.LargeImage = global::EgitimKurumTakipSistemi.UI.WinForm.Properties.Resources.close_32x32;
+            this.btnCikis.ImageOptions.Image = global::EgitimKurumTakipSistemi.UI.WinForm.Properties.Resources.close_16x162;
+            this.btnCikis.ImageOptions.LargeImage = global::EgitimKurumTakipSistemi.UI.WinForm.Properties.Resources.close_32x322;
             this.btnCikis.Name = "btnCikis";
             this.btnCikis.ShortcutKeyDisplayString = "Esc";
             // 
@@ -130,6 +130,18 @@ namespace EgitimKurumTakipSistemi.UI.WinForm.Forms.BaseForms
             this.statusBarAciklama.ImageOptions.LargeImage = global::EgitimKurumTakipSistemi.UI.WinForm.Properties.Resources.suggestion_32x32;
             this.statusBarAciklama.Name = "statusBarAciklama";
             this.statusBarAciklama.PaintStyle = DevExpress.XtraBars.BarItemPaintStyle.CaptionGlyph;
+            // 
+            // statusBarKisayol
+            // 
+            this.statusBarKisayol.Alignment = DevExpress.XtraBars.BarItemLinkAlignment.Right;
+            this.statusBarKisayol.Id = 7;
+            this.statusBarKisayol.Name = "statusBarKisayol";
+            // 
+            // statusBarKisayolAciklama
+            // 
+            this.statusBarKisayolAciklama.Alignment = DevExpress.XtraBars.BarItemLinkAlignment.Right;
+            this.statusBarKisayolAciklama.Id = 8;
+            this.statusBarKisayolAciklama.Name = "statusBarKisayolAciklama";
             // 
             // ribbonPage1
             // 
@@ -153,33 +165,21 @@ namespace EgitimKurumTakipSistemi.UI.WinForm.Forms.BaseForms
             this.ribbonStatusBar1.ItemLinks.Add(this.statusBarAciklama);
             this.ribbonStatusBar1.ItemLinks.Add(this.statusBarKisayol);
             this.ribbonStatusBar1.ItemLinks.Add(this.statusBarKisayolAciklama);
-            this.ribbonStatusBar1.Location = new System.Drawing.Point(0, 348);
+            this.ribbonStatusBar1.Location = new System.Drawing.Point(0, 411);
             this.ribbonStatusBar1.Name = "ribbonStatusBar1";
             this.ribbonStatusBar1.Ribbon = this.ribbonControl;
-            this.ribbonStatusBar1.Size = new System.Drawing.Size(566, 27);
+            this.ribbonStatusBar1.Size = new System.Drawing.Size(641, 27);
             // 
             // ribbonPage2
             // 
             this.ribbonPage2.Name = "ribbonPage2";
             this.ribbonPage2.Text = "ribbonPage2";
             // 
-            // statusBarKisayol
-            // 
-            this.statusBarKisayol.Alignment = DevExpress.XtraBars.BarItemLinkAlignment.Right;
-            this.statusBarKisayol.Id = 7;
-            this.statusBarKisayol.Name = "statusBarKisayol";
-            // 
-            // statusBarKisayolAciklama
-            // 
-            this.statusBarKisayolAciklama.Alignment = DevExpress.XtraBars.BarItemLinkAlignment.Right;
-            this.statusBarKisayolAciklama.Id = 8;
-            this.statusBarKisayolAciklama.Name = "statusBarKisayolAciklama";
-            // 
             // BaseCardUC
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(566, 375);
+            this.ClientSize = new System.Drawing.Size(641, 438);
             this.Controls.Add(this.ribbonStatusBar1);
             this.Controls.Add(this.ribbonControl);
             this.IconOptions.ShowIcon = false;

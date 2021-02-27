@@ -151,5 +151,92 @@
   <ItemGroup>
     <None Include="Resources\suggestion_32x32.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close_16x161.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close_32x321.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close_16x162.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close_32x322.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\apply_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\apply_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\refresh2_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\refresh2_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\masterfilter_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\masterfilter_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\filter_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\filter_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\freezefirstcolumn_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\freezefirstcolumn_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\print_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\print_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\send_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\send_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close_16x163.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close_32x323.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\loadfrom_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\loadfrom_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\export_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\export_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\output-onlinepngtools %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\export_16x161.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\export_32x321.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
