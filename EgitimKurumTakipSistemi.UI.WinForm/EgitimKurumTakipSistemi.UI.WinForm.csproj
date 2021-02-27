@@ -73,6 +73,10 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UserControls\Controls\DachtButtonEdit.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UserControls\Interfaces\IStatusBarAciklama.cs" />
     <EmbeddedResource Include="Forms\BaseForms\BaseCardUC.resx">
       <DependentUpon>BaseCardUC.cs</DependentUpon>
     </EmbeddedResource>
