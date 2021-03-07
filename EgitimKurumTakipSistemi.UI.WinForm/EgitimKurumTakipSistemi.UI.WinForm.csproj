@@ -76,6 +76,9 @@
     <Compile Include="UserControls\Controls\DachtButtonEdit.cs">
       <SubType>Component</SubType>
     </Compile>
+    <Compile Include="UserControls\Controls\DachtTextEdit.cs">
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="UserControls\Interfaces\IStatusBarAciklama.cs" />
     <Compile Include="UserControls\Interfaces\IStatusBarKisayol.cs" />
     <EmbeddedResource Include="Forms\BaseForms\BaseCardUC.resx">
