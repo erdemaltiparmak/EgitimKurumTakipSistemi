@@ -6,9 +6,10 @@ using System.Threading.Tasks;
 
 namespace EgitimKurumTakipSistemi.UI.WinForm.UserControls.Interfaces
 {
-    public interface IStatusBarAciklama
+    interface IStatusBarKisayol : IStatusBarAciklama
     {
-         string StatusBarAciklama { get; set; }
+        string StatusBarKisayol { get; set; }
+        string StatusBarKisayolAciklama { get; set; }
 
     }
 }
