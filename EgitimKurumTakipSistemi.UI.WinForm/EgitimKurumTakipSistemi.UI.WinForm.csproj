@@ -79,7 +79,31 @@
     <Compile Include="UserControls\Controls\DachtCalcEdit.cs">
       <SubType>Component</SubType>
     </Compile>
+    <Compile Include="UserControls\Controls\DachtCheckedComboBoxEdit.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UserControls\Controls\DachtCheckEdit.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UserControls\Controls\DachtCodeTextEdit.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UserControls\Controls\DachtComboBoxEdit.cs">
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="UserControls\Controls\DachtCreditCardEdit.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UserControls\Controls\DachtDateEdit.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UserControls\Controls\DachtFilterControlEdit.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UserControls\Controls\DachtIBANTextEdit.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UserControls\Controls\DachtMemoEdit.cs">
       <SubType>Component</SubType>
     </Compile>
     <Compile Include="UserControls\Controls\DachtTextEdit.cs">
