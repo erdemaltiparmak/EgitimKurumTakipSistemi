@@ -29,56 +29,56 @@ namespace EgitimKurumTakipSistemi.UI.WinForm.Forms.BaseForms
         /// </summary>
         private void InitializeComponent()
         {
-            DevExpress.Utils.SuperToolTip superToolTip1 = new DevExpress.Utils.SuperToolTip();
-            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem1 = new DevExpress.Utils.ToolTipTitleItem();
-            DevExpress.Utils.ToolTipSeparatorItem toolTipSeparatorItem1 = new DevExpress.Utils.ToolTipSeparatorItem();
-            DevExpress.Utils.ToolTipItem toolTipItem1 = new DevExpress.Utils.ToolTipItem();
-            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem2 = new DevExpress.Utils.ToolTipTitleItem();
-            DevExpress.Utils.SuperToolTip superToolTip2 = new DevExpress.Utils.SuperToolTip();
-            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem3 = new DevExpress.Utils.ToolTipTitleItem();
-            DevExpress.Utils.ToolTipSeparatorItem toolTipSeparatorItem2 = new DevExpress.Utils.ToolTipSeparatorItem();
-            DevExpress.Utils.ToolTipItem toolTipItem2 = new DevExpress.Utils.ToolTipItem();
-            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem4 = new DevExpress.Utils.ToolTipTitleItem();
-            DevExpress.Utils.SuperToolTip superToolTip3 = new DevExpress.Utils.SuperToolTip();
-            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem5 = new DevExpress.Utils.ToolTipTitleItem();
-            DevExpress.Utils.ToolTipSeparatorItem toolTipSeparatorItem3 = new DevExpress.Utils.ToolTipSeparatorItem();
-            DevExpress.Utils.ToolTipItem toolTipItem3 = new DevExpress.Utils.ToolTipItem();
-            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem6 = new DevExpress.Utils.ToolTipTitleItem();
-            DevExpress.Utils.SuperToolTip superToolTip4 = new DevExpress.Utils.SuperToolTip();
-            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem7 = new DevExpress.Utils.ToolTipTitleItem();
-            DevExpress.Utils.ToolTipSeparatorItem toolTipSeparatorItem4 = new DevExpress.Utils.ToolTipSeparatorItem();
-            DevExpress.Utils.ToolTipItem toolTipItem4 = new DevExpress.Utils.ToolTipItem();
-            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem8 = new DevExpress.Utils.ToolTipTitleItem();
-            DevExpress.Utils.SuperToolTip superToolTip5 = new DevExpress.Utils.SuperToolTip();
-            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem9 = new DevExpress.Utils.ToolTipTitleItem();
-            DevExpress.Utils.ToolTipSeparatorItem toolTipSeparatorItem5 = new DevExpress.Utils.ToolTipSeparatorItem();
-            DevExpress.Utils.ToolTipItem toolTipItem5 = new DevExpress.Utils.ToolTipItem();
-            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem10 = new DevExpress.Utils.ToolTipTitleItem();
-            DevExpress.Utils.SuperToolTip superToolTip6 = new DevExpress.Utils.SuperToolTip();
-            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem11 = new DevExpress.Utils.ToolTipTitleItem();
-            DevExpress.Utils.ToolTipSeparatorItem toolTipSeparatorItem6 = new DevExpress.Utils.ToolTipSeparatorItem();
-            DevExpress.Utils.ToolTipItem toolTipItem6 = new DevExpress.Utils.ToolTipItem();
-            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem12 = new DevExpress.Utils.ToolTipTitleItem();
-            DevExpress.Utils.SuperToolTip superToolTip7 = new DevExpress.Utils.SuperToolTip();
-            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem13 = new DevExpress.Utils.ToolTipTitleItem();
-            DevExpress.Utils.ToolTipSeparatorItem toolTipSeparatorItem7 = new DevExpress.Utils.ToolTipSeparatorItem();
-            DevExpress.Utils.ToolTipItem toolTipItem7 = new DevExpress.Utils.ToolTipItem();
-            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem14 = new DevExpress.Utils.ToolTipTitleItem();
-            DevExpress.Utils.SuperToolTip superToolTip8 = new DevExpress.Utils.SuperToolTip();
-            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem15 = new DevExpress.Utils.ToolTipTitleItem();
-            DevExpress.Utils.ToolTipSeparatorItem toolTipSeparatorItem8 = new DevExpress.Utils.ToolTipSeparatorItem();
-            DevExpress.Utils.ToolTipItem toolTipItem8 = new DevExpress.Utils.ToolTipItem();
-            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem16 = new DevExpress.Utils.ToolTipTitleItem();
-            DevExpress.Utils.SuperToolTip superToolTip9 = new DevExpress.Utils.SuperToolTip();
-            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem17 = new DevExpress.Utils.ToolTipTitleItem();
-            DevExpress.Utils.ToolTipSeparatorItem toolTipSeparatorItem9 = new DevExpress.Utils.ToolTipSeparatorItem();
-            DevExpress.Utils.ToolTipItem toolTipItem9 = new DevExpress.Utils.ToolTipItem();
-            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem18 = new DevExpress.Utils.ToolTipTitleItem();
-            DevExpress.Utils.SuperToolTip superToolTip10 = new DevExpress.Utils.SuperToolTip();
-            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem19 = new DevExpress.Utils.ToolTipTitleItem();
-            DevExpress.Utils.ToolTipSeparatorItem toolTipSeparatorItem10 = new DevExpress.Utils.ToolTipSeparatorItem();
-            DevExpress.Utils.ToolTipItem toolTipItem10 = new DevExpress.Utils.ToolTipItem();
-            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem20 = new DevExpress.Utils.ToolTipTitleItem();
+            DevExpress.Utils.SuperToolTip superToolTip11 = new DevExpress.Utils.SuperToolTip();
+            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem21 = new DevExpress.Utils.ToolTipTitleItem();
+            DevExpress.Utils.ToolTipSeparatorItem toolTipSeparatorItem11 = new DevExpress.Utils.ToolTipSeparatorItem();
+            DevExpress.Utils.ToolTipItem toolTipItem11 = new DevExpress.Utils.ToolTipItem();
+            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem22 = new DevExpress.Utils.ToolTipTitleItem();
+            DevExpress.Utils.SuperToolTip superToolTip12 = new DevExpress.Utils.SuperToolTip();
+            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem23 = new DevExpress.Utils.ToolTipTitleItem();
+            DevExpress.Utils.ToolTipSeparatorItem toolTipSeparatorItem12 = new DevExpress.Utils.ToolTipSeparatorItem();
+            DevExpress.Utils.ToolTipItem toolTipItem12 = new DevExpress.Utils.ToolTipItem();
+            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem24 = new DevExpress.Utils.ToolTipTitleItem();
+            DevExpress.Utils.SuperToolTip superToolTip13 = new DevExpress.Utils.SuperToolTip();
+            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem25 = new DevExpress.Utils.ToolTipTitleItem();
+            DevExpress.Utils.ToolTipSeparatorItem toolTipSeparatorItem13 = new DevExpress.Utils.ToolTipSeparatorItem();
+            DevExpress.Utils.ToolTipItem toolTipItem13 = new DevExpress.Utils.ToolTipItem();
+            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem26 = new DevExpress.Utils.ToolTipTitleItem();
+            DevExpress.Utils.SuperToolTip superToolTip14 = new DevExpress.Utils.SuperToolTip();
+            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem27 = new DevExpress.Utils.ToolTipTitleItem();
+            DevExpress.Utils.ToolTipSeparatorItem toolTipSeparatorItem14 = new DevExpress.Utils.ToolTipSeparatorItem();
+            DevExpress.Utils.ToolTipItem toolTipItem14 = new DevExpress.Utils.ToolTipItem();
+            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem28 = new DevExpress.Utils.ToolTipTitleItem();
+            DevExpress.Utils.SuperToolTip superToolTip15 = new DevExpress.Utils.SuperToolTip();
+            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem29 = new DevExpress.Utils.ToolTipTitleItem();
+            DevExpress.Utils.ToolTipSeparatorItem toolTipSeparatorItem15 = new DevExpress.Utils.ToolTipSeparatorItem();
+            DevExpress.Utils.ToolTipItem toolTipItem15 = new DevExpress.Utils.ToolTipItem();
+            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem30 = new DevExpress.Utils.ToolTipTitleItem();
+            DevExpress.Utils.SuperToolTip superToolTip16 = new DevExpress.Utils.SuperToolTip();
+            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem31 = new DevExpress.Utils.ToolTipTitleItem();
+            DevExpress.Utils.ToolTipSeparatorItem toolTipSeparatorItem16 = new DevExpress.Utils.ToolTipSeparatorItem();
+            DevExpress.Utils.ToolTipItem toolTipItem16 = new DevExpress.Utils.ToolTipItem();
+            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem32 = new DevExpress.Utils.ToolTipTitleItem();
+            DevExpress.Utils.SuperToolTip superToolTip17 = new DevExpress.Utils.SuperToolTip();
+            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem33 = new DevExpress.Utils.ToolTipTitleItem();
+            DevExpress.Utils.ToolTipSeparatorItem toolTipSeparatorItem17 = new DevExpress.Utils.ToolTipSeparatorItem();
+            DevExpress.Utils.ToolTipItem toolTipItem17 = new DevExpress.Utils.ToolTipItem();
+            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem34 = new DevExpress.Utils.ToolTipTitleItem();
+            DevExpress.Utils.SuperToolTip superToolTip18 = new DevExpress.Utils.SuperToolTip();
+            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem35 = new DevExpress.Utils.ToolTipTitleItem();
+            DevExpress.Utils.ToolTipSeparatorItem toolTipSeparatorItem18 = new DevExpress.Utils.ToolTipSeparatorItem();
+            DevExpress.Utils.ToolTipItem toolTipItem18 = new DevExpress.Utils.ToolTipItem();
+            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem36 = new DevExpress.Utils.ToolTipTitleItem();
+            DevExpress.Utils.SuperToolTip superToolTip19 = new DevExpress.Utils.SuperToolTip();
+            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem37 = new DevExpress.Utils.ToolTipTitleItem();
+            DevExpress.Utils.ToolTipSeparatorItem toolTipSeparatorItem19 = new DevExpress.Utils.ToolTipSeparatorItem();
+            DevExpress.Utils.ToolTipItem toolTipItem19 = new DevExpress.Utils.ToolTipItem();
+            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem38 = new DevExpress.Utils.ToolTipTitleItem();
+            DevExpress.Utils.SuperToolTip superToolTip20 = new DevExpress.Utils.SuperToolTip();
+            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem39 = new DevExpress.Utils.ToolTipTitleItem();
+            DevExpress.Utils.ToolTipSeparatorItem toolTipSeparatorItem20 = new DevExpress.Utils.ToolTipSeparatorItem();
+            DevExpress.Utils.ToolTipItem toolTipItem20 = new DevExpress.Utils.ToolTipItem();
+            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem40 = new DevExpress.Utils.ToolTipTitleItem();
             this.ribbonControl = new DevExpress.XtraBars.Ribbon.RibbonControl();
             this.btnYeni = new DevExpress.XtraBars.BarButtonItem();
             this.btnSil = new DevExpress.XtraBars.BarButtonItem();
@@ -139,19 +139,19 @@ namespace EgitimKurumTakipSistemi.UI.WinForm.Forms.BaseForms
             this.btnYeni.ImageOptions.LargeImage = global::EgitimKurumTakipSistemi.UI.WinForm.Properties.Resources.additem_32x32;
             this.btnYeni.ItemShortcut = new DevExpress.XtraBars.BarShortcut((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.N));
             this.btnYeni.Name = "btnYeni";
-            toolTipTitleItem1.Text = "Yeni Kart Ekle";
-            toolTipItem1.Text = "Formu yeni kart ekleme modunda açar.";
-            toolTipTitleItem2.Appearance.Font = new System.Drawing.Font("Tahoma", 7.8F, System.Drawing.FontStyle.Bold);
-            toolTipTitleItem2.Appearance.FontStyleDelta = System.Drawing.FontStyle.Bold;
-            toolTipTitleItem2.Appearance.ForeColor = System.Drawing.Color.Olive;
-            toolTipTitleItem2.Appearance.Options.UseFont = true;
-            toolTipTitleItem2.Appearance.Options.UseForeColor = true;
-            toolTipTitleItem2.Text = "(CTRL+N)";
-            superToolTip1.Items.Add(toolTipTitleItem1);
-            superToolTip1.Items.Add(toolTipSeparatorItem1);
-            superToolTip1.Items.Add(toolTipItem1);
-            superToolTip1.Items.Add(toolTipTitleItem2);
-            this.btnYeni.SuperTip = superToolTip1;
+            toolTipTitleItem21.Text = "Yeni Kart Ekle";
+            toolTipItem11.Text = "Formu yeni kart ekleme modunda açar.";
+            toolTipTitleItem22.Appearance.Font = new System.Drawing.Font("Tahoma", 7.8F, System.Drawing.FontStyle.Bold);
+            toolTipTitleItem22.Appearance.FontStyleDelta = System.Drawing.FontStyle.Bold;
+            toolTipTitleItem22.Appearance.ForeColor = System.Drawing.Color.Olive;
+            toolTipTitleItem22.Appearance.Options.UseFont = true;
+            toolTipTitleItem22.Appearance.Options.UseForeColor = true;
+            toolTipTitleItem22.Text = "(CTRL+N)";
+            superToolTip11.Items.Add(toolTipTitleItem21);
+            superToolTip11.Items.Add(toolTipSeparatorItem11);
+            superToolTip11.Items.Add(toolTipItem11);
+            superToolTip11.Items.Add(toolTipTitleItem22);
+            this.btnYeni.SuperTip = superToolTip11;
             // 
             // btnSil
             // 
@@ -161,19 +161,19 @@ namespace EgitimKurumTakipSistemi.UI.WinForm.Forms.BaseForms
             this.btnSil.ImageOptions.LargeImage = global::EgitimKurumTakipSistemi.UI.WinForm.Properties.Resources.deletelist_32x32;
             this.btnSil.ItemShortcut = new DevExpress.XtraBars.BarShortcut(System.Windows.Forms.Keys.Delete);
             this.btnSil.Name = "btnSil";
-            toolTipTitleItem3.Text = "Seçili Kartı Sil";
-            toolTipItem2.Text = "Seçilen kartı onayınızı alarak siler.";
-            toolTipTitleItem4.Appearance.Font = new System.Drawing.Font("Tahoma", 7.8F, System.Drawing.FontStyle.Bold);
-            toolTipTitleItem4.Appearance.FontStyleDelta = System.Drawing.FontStyle.Bold;
-            toolTipTitleItem4.Appearance.ForeColor = System.Drawing.Color.Olive;
-            toolTipTitleItem4.Appearance.Options.UseFont = true;
-            toolTipTitleItem4.Appearance.Options.UseForeColor = true;
-            toolTipTitleItem4.Text = "(DEL)";
-            superToolTip2.Items.Add(toolTipTitleItem3);
-            superToolTip2.Items.Add(toolTipSeparatorItem2);
-            superToolTip2.Items.Add(toolTipItem2);
-            superToolTip2.Items.Add(toolTipTitleItem4);
-            this.btnSil.SuperTip = superToolTip2;
+            toolTipTitleItem23.Text = "Seçili Kartı Sil";
+            toolTipItem12.Text = "Seçilen kartı onayınızı alarak siler.";
+            toolTipTitleItem24.Appearance.Font = new System.Drawing.Font("Tahoma", 7.8F, System.Drawing.FontStyle.Bold);
+            toolTipTitleItem24.Appearance.FontStyleDelta = System.Drawing.FontStyle.Bold;
+            toolTipTitleItem24.Appearance.ForeColor = System.Drawing.Color.Olive;
+            toolTipTitleItem24.Appearance.Options.UseFont = true;
+            toolTipTitleItem24.Appearance.Options.UseForeColor = true;
+            toolTipTitleItem24.Text = "(DEL)";
+            superToolTip12.Items.Add(toolTipTitleItem23);
+            superToolTip12.Items.Add(toolTipSeparatorItem12);
+            superToolTip12.Items.Add(toolTipItem12);
+            superToolTip12.Items.Add(toolTipTitleItem24);
+            this.btnSil.SuperTip = superToolTip12;
             // 
             // btnSec
             // 
@@ -183,17 +183,17 @@ namespace EgitimKurumTakipSistemi.UI.WinForm.Forms.BaseForms
             this.btnSec.ImageOptions.LargeImage = global::EgitimKurumTakipSistemi.UI.WinForm.Properties.Resources.apply_32x32;
             this.btnSec.Name = "btnSec";
             this.btnSec.ShortcutKeyDisplayString = "Enter";
-            toolTipTitleItem5.Text = "Kartı Seç";
-            toolTipTitleItem6.Appearance.FontStyleDelta = System.Drawing.FontStyle.Bold;
-            toolTipTitleItem6.Appearance.ForeColor = System.Drawing.Color.Olive;
-            toolTipTitleItem6.Appearance.Options.UseFont = true;
-            toolTipTitleItem6.Appearance.Options.UseForeColor = true;
-            toolTipTitleItem6.Text = "(Enter)";
-            superToolTip3.Items.Add(toolTipTitleItem5);
-            superToolTip3.Items.Add(toolTipSeparatorItem3);
-            superToolTip3.Items.Add(toolTipItem3);
-            superToolTip3.Items.Add(toolTipTitleItem6);
-            this.btnSec.SuperTip = superToolTip3;
+            toolTipTitleItem25.Text = "Kartı Seç";
+            toolTipTitleItem26.Appearance.FontStyleDelta = System.Drawing.FontStyle.Bold;
+            toolTipTitleItem26.Appearance.ForeColor = System.Drawing.Color.Olive;
+            toolTipTitleItem26.Appearance.Options.UseFont = true;
+            toolTipTitleItem26.Appearance.Options.UseForeColor = true;
+            toolTipTitleItem26.Text = "(Enter)";
+            superToolTip13.Items.Add(toolTipTitleItem25);
+            superToolTip13.Items.Add(toolTipSeparatorItem13);
+            superToolTip13.Items.Add(toolTipItem13);
+            superToolTip13.Items.Add(toolTipTitleItem26);
+            this.btnSec.SuperTip = superToolTip13;
             // 
             // btnDuzelt
             // 
@@ -203,18 +203,18 @@ namespace EgitimKurumTakipSistemi.UI.WinForm.Forms.BaseForms
             this.btnDuzelt.ImageOptions.LargeImage = global::EgitimKurumTakipSistemi.UI.WinForm.Properties.Resources.edit_32x32;
             this.btnDuzelt.ItemShortcut = new DevExpress.XtraBars.BarShortcut(System.Windows.Forms.Keys.F3);
             this.btnDuzelt.Name = "btnDuzelt";
-            toolTipTitleItem7.Text = "Seçilen Kartı Düzenle";
-            toolTipItem4.Text = "Seçilen kartı düzenleme modunda açar.";
-            toolTipTitleItem8.Appearance.FontStyleDelta = System.Drawing.FontStyle.Bold;
-            toolTipTitleItem8.Appearance.ForeColor = System.Drawing.Color.Olive;
-            toolTipTitleItem8.Appearance.Options.UseFont = true;
-            toolTipTitleItem8.Appearance.Options.UseForeColor = true;
-            toolTipTitleItem8.Text = "(F3)";
-            superToolTip4.Items.Add(toolTipTitleItem7);
-            superToolTip4.Items.Add(toolTipSeparatorItem4);
-            superToolTip4.Items.Add(toolTipItem4);
-            superToolTip4.Items.Add(toolTipTitleItem8);
-            this.btnDuzelt.SuperTip = superToolTip4;
+            toolTipTitleItem27.Text = "Seçilen Kartı Düzenle";
+            toolTipItem14.Text = "Seçilen kartı düzenleme modunda açar.";
+            toolTipTitleItem28.Appearance.FontStyleDelta = System.Drawing.FontStyle.Bold;
+            toolTipTitleItem28.Appearance.ForeColor = System.Drawing.Color.Olive;
+            toolTipTitleItem28.Appearance.Options.UseFont = true;
+            toolTipTitleItem28.Appearance.Options.UseForeColor = true;
+            toolTipTitleItem28.Text = "(F3)";
+            superToolTip14.Items.Add(toolTipTitleItem27);
+            superToolTip14.Items.Add(toolTipSeparatorItem14);
+            superToolTip14.Items.Add(toolTipItem14);
+            superToolTip14.Items.Add(toolTipTitleItem28);
+            this.btnDuzelt.SuperTip = superToolTip14;
             // 
             // btnYenile
             // 
@@ -225,18 +225,18 @@ namespace EgitimKurumTakipSistemi.UI.WinForm.Forms.BaseForms
             this.btnYenile.ItemShortcut = new DevExpress.XtraBars.BarShortcut(System.Windows.Forms.Keys.F5);
             this.btnYenile.Name = "btnYenile";
             this.btnYenile.ShowItemShortcut = DevExpress.Utils.DefaultBoolean.False;
-            toolTipTitleItem9.Text = "Yenile";
-            toolTipItem5.Text = "Veriler güncellenir.";
-            toolTipTitleItem10.Appearance.FontStyleDelta = System.Drawing.FontStyle.Bold;
-            toolTipTitleItem10.Appearance.ForeColor = System.Drawing.Color.Olive;
-            toolTipTitleItem10.Appearance.Options.UseFont = true;
-            toolTipTitleItem10.Appearance.Options.UseForeColor = true;
-            toolTipTitleItem10.Text = "(F5)";
-            superToolTip5.Items.Add(toolTipTitleItem9);
-            superToolTip5.Items.Add(toolTipSeparatorItem5);
-            superToolTip5.Items.Add(toolTipItem5);
-            superToolTip5.Items.Add(toolTipTitleItem10);
-            this.btnYenile.SuperTip = superToolTip5;
+            toolTipTitleItem29.Text = "Yenile";
+            toolTipItem15.Text = "Veriler güncellenir.";
+            toolTipTitleItem30.Appearance.FontStyleDelta = System.Drawing.FontStyle.Bold;
+            toolTipTitleItem30.Appearance.ForeColor = System.Drawing.Color.Olive;
+            toolTipTitleItem30.Appearance.Options.UseFont = true;
+            toolTipTitleItem30.Appearance.Options.UseForeColor = true;
+            toolTipTitleItem30.Text = "(F5)";
+            superToolTip15.Items.Add(toolTipTitleItem29);
+            superToolTip15.Items.Add(toolTipSeparatorItem15);
+            superToolTip15.Items.Add(toolTipItem15);
+            superToolTip15.Items.Add(toolTipTitleItem30);
+            this.btnYenile.SuperTip = superToolTip15;
             // 
             // btnFiltrele
             // 
@@ -246,18 +246,18 @@ namespace EgitimKurumTakipSistemi.UI.WinForm.Forms.BaseForms
             this.btnFiltrele.ImageOptions.LargeImage = global::EgitimKurumTakipSistemi.UI.WinForm.Properties.Resources.filter_32x32;
             this.btnFiltrele.ItemShortcut = new DevExpress.XtraBars.BarShortcut(System.Windows.Forms.Keys.F8);
             this.btnFiltrele.Name = "btnFiltrele";
-            toolTipTitleItem11.Text = "Verilere Filtre Uygula";
-            toolTipItem6.Text = "Aktif tablodaki verileri filtrelemek için bir filtre seçilir.";
-            toolTipTitleItem12.Appearance.FontStyleDelta = System.Drawing.FontStyle.Bold;
-            toolTipTitleItem12.Appearance.ForeColor = System.Drawing.Color.Olive;
-            toolTipTitleItem12.Appearance.Options.UseFont = true;
-            toolTipTitleItem12.Appearance.Options.UseForeColor = true;
-            toolTipTitleItem12.Text = "(F8)";
-            superToolTip6.Items.Add(toolTipTitleItem11);
-            superToolTip6.Items.Add(toolTipSeparatorItem6);
-            superToolTip6.Items.Add(toolTipItem6);
-            superToolTip6.Items.Add(toolTipTitleItem12);
-            this.btnFiltrele.SuperTip = superToolTip6;
+            toolTipTitleItem31.Text = "Verilere Filtre Uygula";
+            toolTipItem16.Text = "Aktif tablodaki verileri filtrelemek için bir filtre seçilir.";
+            toolTipTitleItem32.Appearance.FontStyleDelta = System.Drawing.FontStyle.Bold;
+            toolTipTitleItem32.Appearance.ForeColor = System.Drawing.Color.Olive;
+            toolTipTitleItem32.Appearance.Options.UseFont = true;
+            toolTipTitleItem32.Appearance.Options.UseForeColor = true;
+            toolTipTitleItem32.Text = "(F8)";
+            superToolTip16.Items.Add(toolTipTitleItem31);
+            superToolTip16.Items.Add(toolTipSeparatorItem16);
+            superToolTip16.Items.Add(toolTipItem16);
+            superToolTip16.Items.Add(toolTipTitleItem32);
+            this.btnFiltrele.SuperTip = superToolTip16;
             // 
             // btnKolonlar
             // 
@@ -267,18 +267,18 @@ namespace EgitimKurumTakipSistemi.UI.WinForm.Forms.BaseForms
             this.btnKolonlar.ImageOptions.LargeImage = global::EgitimKurumTakipSistemi.UI.WinForm.Properties.Resources.freezefirstcolumn_32x32;
             this.btnKolonlar.ItemShortcut = new DevExpress.XtraBars.BarShortcut((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.O));
             this.btnKolonlar.Name = "btnKolonlar";
-            toolTipTitleItem13.Text = "Kolon Seçimi";
-            toolTipItem7.Text = "Tabloya eklemek için kolonlar seçilir.";
-            toolTipTitleItem14.Appearance.FontStyleDelta = System.Drawing.FontStyle.Bold;
-            toolTipTitleItem14.Appearance.ForeColor = System.Drawing.Color.Olive;
-            toolTipTitleItem14.Appearance.Options.UseFont = true;
-            toolTipTitleItem14.Appearance.Options.UseForeColor = true;
-            toolTipTitleItem14.Text = "(CTRL+O)";
-            superToolTip7.Items.Add(toolTipTitleItem13);
-            superToolTip7.Items.Add(toolTipSeparatorItem7);
-            superToolTip7.Items.Add(toolTipItem7);
-            superToolTip7.Items.Add(toolTipTitleItem14);
-            this.btnKolonlar.SuperTip = superToolTip7;
+            toolTipTitleItem33.Text = "Kolon Seçimi";
+            toolTipItem17.Text = "Tabloya eklemek için kolonlar seçilir.";
+            toolTipTitleItem34.Appearance.FontStyleDelta = System.Drawing.FontStyle.Bold;
+            toolTipTitleItem34.Appearance.ForeColor = System.Drawing.Color.Olive;
+            toolTipTitleItem34.Appearance.Options.UseFont = true;
+            toolTipTitleItem34.Appearance.Options.UseForeColor = true;
+            toolTipTitleItem34.Text = "(CTRL+O)";
+            superToolTip17.Items.Add(toolTipTitleItem33);
+            superToolTip17.Items.Add(toolTipSeparatorItem17);
+            superToolTip17.Items.Add(toolTipItem17);
+            superToolTip17.Items.Add(toolTipTitleItem34);
+            this.btnKolonlar.SuperTip = superToolTip17;
             // 
             // btnYazdir
             // 
@@ -288,18 +288,18 @@ namespace EgitimKurumTakipSistemi.UI.WinForm.Forms.BaseForms
             this.btnYazdir.ImageOptions.LargeImage = global::EgitimKurumTakipSistemi.UI.WinForm.Properties.Resources.print_32x32;
             this.btnYazdir.ItemShortcut = new DevExpress.XtraBars.BarShortcut((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.P));
             this.btnYazdir.Name = "btnYazdir";
-            toolTipTitleItem15.Text = "Tablo Yazdırma Seçenekleri";
-            toolTipItem8.Text = "Tabloyu yazdırabileceğiniz pencere açılır.";
-            toolTipTitleItem16.Appearance.FontStyleDelta = System.Drawing.FontStyle.Bold;
-            toolTipTitleItem16.Appearance.ForeColor = System.Drawing.Color.Olive;
-            toolTipTitleItem16.Appearance.Options.UseFont = true;
-            toolTipTitleItem16.Appearance.Options.UseForeColor = true;
-            toolTipTitleItem16.Text = "(CTRL+P)";
-            superToolTip8.Items.Add(toolTipTitleItem15);
-            superToolTip8.Items.Add(toolTipSeparatorItem8);
-            superToolTip8.Items.Add(toolTipItem8);
-            superToolTip8.Items.Add(toolTipTitleItem16);
-            this.btnYazdir.SuperTip = superToolTip8;
+            toolTipTitleItem35.Text = "Tablo Yazdırma Seçenekleri";
+            toolTipItem18.Text = "Tabloyu yazdırabileceğiniz pencere açılır.";
+            toolTipTitleItem36.Appearance.FontStyleDelta = System.Drawing.FontStyle.Bold;
+            toolTipTitleItem36.Appearance.ForeColor = System.Drawing.Color.Olive;
+            toolTipTitleItem36.Appearance.Options.UseFont = true;
+            toolTipTitleItem36.Appearance.Options.UseForeColor = true;
+            toolTipTitleItem36.Text = "(CTRL+P)";
+            superToolTip18.Items.Add(toolTipTitleItem35);
+            superToolTip18.Items.Add(toolTipSeparatorItem18);
+            superToolTip18.Items.Add(toolTipItem18);
+            superToolTip18.Items.Add(toolTipTitleItem36);
+            this.btnYazdir.SuperTip = superToolTip18;
             // 
             // btnCikis
             // 
@@ -309,18 +309,18 @@ namespace EgitimKurumTakipSistemi.UI.WinForm.Forms.BaseForms
             this.btnCikis.ImageOptions.LargeImage = global::EgitimKurumTakipSistemi.UI.WinForm.Properties.Resources.close_32x323;
             this.btnCikis.Name = "btnCikis";
             this.btnCikis.ShortcutKeyDisplayString = "Esc";
-            toolTipTitleItem17.Text = "Çıkış";
-            toolTipItem9.Text = "Form kapatılarak çıkılır.";
-            toolTipTitleItem18.Appearance.FontStyleDelta = System.Drawing.FontStyle.Bold;
-            toolTipTitleItem18.Appearance.ForeColor = System.Drawing.Color.Olive;
-            toolTipTitleItem18.Appearance.Options.UseFont = true;
-            toolTipTitleItem18.Appearance.Options.UseForeColor = true;
-            toolTipTitleItem18.Text = "(ESC)";
-            superToolTip9.Items.Add(toolTipTitleItem17);
-            superToolTip9.Items.Add(toolTipSeparatorItem9);
-            superToolTip9.Items.Add(toolTipItem9);
-            superToolTip9.Items.Add(toolTipTitleItem18);
-            this.btnCikis.SuperTip = superToolTip9;
+            toolTipTitleItem37.Text = "Çıkış";
+            toolTipItem19.Text = "Form kapatılarak çıkılır.";
+            toolTipTitleItem38.Appearance.FontStyleDelta = System.Drawing.FontStyle.Bold;
+            toolTipTitleItem38.Appearance.ForeColor = System.Drawing.Color.Olive;
+            toolTipTitleItem38.Appearance.Options.UseFont = true;
+            toolTipTitleItem38.Appearance.Options.UseForeColor = true;
+            toolTipTitleItem38.Text = "(ESC)";
+            superToolTip19.Items.Add(toolTipTitleItem37);
+            superToolTip19.Items.Add(toolTipSeparatorItem19);
+            superToolTip19.Items.Add(toolTipItem19);
+            superToolTip19.Items.Add(toolTipTitleItem38);
+            this.btnCikis.SuperTip = superToolTip19;
             // 
             // btnDisaAktar
             // 
@@ -330,18 +330,18 @@ namespace EgitimKurumTakipSistemi.UI.WinForm.Forms.BaseForms
             this.btnDisaAktar.ImageOptions.LargeImage = global::EgitimKurumTakipSistemi.UI.WinForm.Properties.Resources.export_32x321;
             this.btnDisaAktar.ItemShortcut = new DevExpress.XtraBars.BarShortcut(System.Windows.Forms.Keys.F12);
             this.btnDisaAktar.Name = "btnDisaAktar";
-            toolTipTitleItem19.Text = "Tabloyu Dışa Aktar";
-            toolTipItem10.Text = "Verileri istediğiniz formatta kaydeder ve görüntüler.";
-            toolTipTitleItem20.Appearance.FontStyleDelta = System.Drawing.FontStyle.Bold;
-            toolTipTitleItem20.Appearance.ForeColor = System.Drawing.Color.Olive;
-            toolTipTitleItem20.Appearance.Options.UseFont = true;
-            toolTipTitleItem20.Appearance.Options.UseForeColor = true;
-            toolTipTitleItem20.Text = "(F12)";
-            superToolTip10.Items.Add(toolTipTitleItem19);
-            superToolTip10.Items.Add(toolTipSeparatorItem10);
-            superToolTip10.Items.Add(toolTipItem10);
-            superToolTip10.Items.Add(toolTipTitleItem20);
-            this.btnDisaAktar.SuperTip = superToolTip10;
+            toolTipTitleItem39.Text = "Tabloyu Dışa Aktar";
+            toolTipItem20.Text = "Verileri istediğiniz formatta kaydeder ve görüntüler.";
+            toolTipTitleItem40.Appearance.FontStyleDelta = System.Drawing.FontStyle.Bold;
+            toolTipTitleItem40.Appearance.ForeColor = System.Drawing.Color.Olive;
+            toolTipTitleItem40.Appearance.Options.UseFont = true;
+            toolTipTitleItem40.Appearance.Options.UseForeColor = true;
+            toolTipTitleItem40.Text = "(F12)";
+            superToolTip20.Items.Add(toolTipTitleItem39);
+            superToolTip20.Items.Add(toolTipSeparatorItem20);
+            superToolTip20.Items.Add(toolTipItem20);
+            superToolTip20.Items.Add(toolTipTitleItem40);
+            this.btnDisaAktar.SuperTip = superToolTip20;
             // 
             // ribbonPage1
             // 
