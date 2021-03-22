@@ -106,6 +106,15 @@
     <Compile Include="UserControls\Controls\DachtMemoEdit.cs">
       <SubType>Component</SubType>
     </Compile>
+    <Compile Include="UserControls\Controls\DachtPictureEdit.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UserControls\Controls\DachtSimpleButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UserControls\Controls\DachtSpinEdit.cs">
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="UserControls\Controls\DachtTextEdit.cs">
       <SubType>Component</SubType>
     </Compile>

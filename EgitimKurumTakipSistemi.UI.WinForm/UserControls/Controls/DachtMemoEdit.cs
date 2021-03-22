@@ -1,19 +1,19 @@
 ﻿using DevExpress.XtraEditors;
-using System;
-using System.Collections.Generic;
+using EgitimKurumTakipSistemi.UI.WinForm.UserControls.Interfaces;
+using System.ComponentModel;
 using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace EgitimKurumTakipSistemi.UI.WinForm.UserControls.Controls
 {
-    public class DachtMemoEdit : MemoEdit
+    [ToolboxItem(true)]
+    public class DachtMemoEdit : MemoEdit, IStatusBarAciklama
     {
         public DachtMemoEdit()
         {
             base.Properties.Appearance.BackColor = Color.LightCyan;
             base.Properties.MaxLength = 500;
         }
+        public override bool EnterMoveNextControl { get; set; } = true;
+        public string StatusBarAciklama { get; set; } = "Not Giriniz";
     }
 }
