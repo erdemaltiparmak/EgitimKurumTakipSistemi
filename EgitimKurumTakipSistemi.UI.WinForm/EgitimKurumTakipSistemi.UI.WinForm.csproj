@@ -115,6 +115,9 @@
     <Compile Include="UserControls\Controls\DachtSpinEdit.cs">
       <SubType>Component</SubType>
     </Compile>
+    <Compile Include="UserControls\Controls\DachtTCKimlikNoEdit.cs">
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="UserControls\Controls\DachtTextEdit.cs">
       <SubType>Component</SubType>
     </Compile>
