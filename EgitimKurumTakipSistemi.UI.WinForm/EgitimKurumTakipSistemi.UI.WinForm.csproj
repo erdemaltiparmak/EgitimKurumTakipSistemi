@@ -134,6 +134,12 @@
     <Compile Include="UserControls\Controls\DachtToggleSwitch.cs">
       <SubType>Component</SubType>
     </Compile>
+    <Compile Include="UserControls\Controls\NavigatorControls\InsertUpdateNavControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\Controls\NavigatorControls\InsertUpdateNavControl.Designer.cs">
+      <DependentUpon>InsertUpdateNavControl.cs</DependentUpon>
+    </Compile>
     <Compile Include="UserControls\Interfaces\IStatusBarAciklama.cs" />
     <Compile Include="UserControls\Interfaces\IStatusBarKisayol.cs" />
     <EmbeddedResource Include="Forms\BaseForms\BaseCardUC.resx">
@@ -153,6 +159,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="UserControls\Controls\NavigatorControls\InsertUpdateNavControl.resx">
+      <DependentUpon>InsertUpdateNavControl.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
