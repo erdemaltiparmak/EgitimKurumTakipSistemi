@@ -140,6 +140,18 @@
     <Compile Include="UserControls\Controls\NavigatorControls\InsertUpdateNavControl.Designer.cs">
       <DependentUpon>InsertUpdateNavControl.cs</DependentUpon>
     </Compile>
+    <Compile Include="UserControls\Controls\NavigatorControls\LongNavControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\Controls\NavigatorControls\LongNavControl.Designer.cs">
+      <DependentUpon>LongNavControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Controls\NavigatorControls\SmallNavControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\Controls\NavigatorControls\SmallNavControl.Designer.cs">
+      <DependentUpon>SmallNavControl.cs</DependentUpon>
+    </Compile>
     <Compile Include="UserControls\Interfaces\IStatusBarAciklama.cs" />
     <Compile Include="UserControls\Interfaces\IStatusBarKisayol.cs" />
     <EmbeddedResource Include="Forms\BaseForms\BaseCardUC.resx">
@@ -161,6 +173,12 @@
     </Compile>
     <EmbeddedResource Include="UserControls\Controls\NavigatorControls\InsertUpdateNavControl.resx">
       <DependentUpon>InsertUpdateNavControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\Controls\NavigatorControls\LongNavControl.resx">
+      <DependentUpon>LongNavControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\Controls\NavigatorControls\SmallNavControl.resx">
+      <DependentUpon>SmallNavControl.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

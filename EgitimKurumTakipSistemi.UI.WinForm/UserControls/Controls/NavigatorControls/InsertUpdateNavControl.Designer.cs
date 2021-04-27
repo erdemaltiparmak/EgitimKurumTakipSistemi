@@ -53,9 +53,9 @@ namespace EgitimKurumTakipSistemi.UI.WinForm.UserControls.Controls.NavigatorCont
             this.controlNavigator1.Buttons.PrevPage.Visible = false;
             this.controlNavigator1.Buttons.Remove.ImageIndex = 7;
             this.controlNavigator1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.controlNavigator1.Location = new System.Drawing.Point(0, -4);
+            this.controlNavigator1.Location = new System.Drawing.Point(0, 0);
             this.controlNavigator1.Name = "controlNavigator1";
-            this.controlNavigator1.Size = new System.Drawing.Size(597, 28);
+            this.controlNavigator1.Size = new System.Drawing.Size(597, 26);
             this.controlNavigator1.TabIndex = 0;
             this.controlNavigator1.Text = "controlNavigator1";
             // 
@@ -79,7 +79,7 @@ namespace EgitimKurumTakipSistemi.UI.WinForm.UserControls.Controls.NavigatorCont
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.controlNavigator1);
             this.Name = "InsertUpdateNavControl";
-            this.Size = new System.Drawing.Size(597, 24);
+            this.Size = new System.Drawing.Size(597, 26);
             ((System.ComponentModel.ISupportInitialize)(this.ImageCollection1)).EndInit();
             this.ResumeLayout(false);
 
