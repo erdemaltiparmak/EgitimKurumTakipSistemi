@@ -31,33 +31,33 @@ namespace EgitimKurumTakipSistemi.UI.WinForm.UserControls.Controls.NavigatorCont
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(InsertUpdateNavControl));
-            this.controlNavigator1 = new DevExpress.XtraEditors.ControlNavigator();
+            this.Navigator = new DevExpress.XtraEditors.ControlNavigator();
             this.ImageCollection1 = new DevExpress.Utils.ImageCollection(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.ImageCollection1)).BeginInit();
             this.SuspendLayout();
             // 
-            // controlNavigator1
+            // Navigator
             // 
-            this.controlNavigator1.Buttons.Append.ImageIndex = 6;
-            this.controlNavigator1.Buttons.CancelEdit.Visible = false;
-            this.controlNavigator1.Buttons.Edit.Visible = false;
-            this.controlNavigator1.Buttons.EndEdit.Visible = false;
-            this.controlNavigator1.Buttons.First.ImageIndex = 1;
-            this.controlNavigator1.Buttons.ImageList = this.ImageCollection1;
-            this.controlNavigator1.Buttons.Last.ImageIndex = 4;
-            this.controlNavigator1.Buttons.Next.ImageIndex = 3;
-            this.controlNavigator1.Buttons.NextPage.ImageIndex = 5;
-            this.controlNavigator1.Buttons.NextPage.Visible = false;
-            this.controlNavigator1.Buttons.Prev.ImageIndex = 2;
-            this.controlNavigator1.Buttons.PrevPage.ImageIndex = 0;
-            this.controlNavigator1.Buttons.PrevPage.Visible = false;
-            this.controlNavigator1.Buttons.Remove.ImageIndex = 7;
-            this.controlNavigator1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.controlNavigator1.Location = new System.Drawing.Point(0, 0);
-            this.controlNavigator1.Name = "controlNavigator1";
-            this.controlNavigator1.Size = new System.Drawing.Size(597, 26);
-            this.controlNavigator1.TabIndex = 0;
-            this.controlNavigator1.Text = "controlNavigator1";
+            this.Navigator.Buttons.Append.ImageIndex = 6;
+            this.Navigator.Buttons.CancelEdit.Visible = false;
+            this.Navigator.Buttons.Edit.Visible = false;
+            this.Navigator.Buttons.EndEdit.Visible = false;
+            this.Navigator.Buttons.First.ImageIndex = 1;
+            this.Navigator.Buttons.ImageList = this.ImageCollection1;
+            this.Navigator.Buttons.Last.ImageIndex = 4;
+            this.Navigator.Buttons.Next.ImageIndex = 3;
+            this.Navigator.Buttons.NextPage.ImageIndex = 5;
+            this.Navigator.Buttons.NextPage.Visible = false;
+            this.Navigator.Buttons.Prev.ImageIndex = 2;
+            this.Navigator.Buttons.PrevPage.ImageIndex = 0;
+            this.Navigator.Buttons.PrevPage.Visible = false;
+            this.Navigator.Buttons.Remove.ImageIndex = 7;
+            this.Navigator.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.Navigator.Location = new System.Drawing.Point(0, 0);
+            this.Navigator.Name = "Navigator";
+            this.Navigator.Size = new System.Drawing.Size(597, 26);
+            this.Navigator.TabIndex = 0;
+            this.Navigator.Text = "controlNavigator1";
             // 
             // ImageCollection1
             // 
@@ -77,7 +77,7 @@ namespace EgitimKurumTakipSistemi.UI.WinForm.UserControls.Controls.NavigatorCont
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.controlNavigator1);
+            this.Controls.Add(this.Navigator);
             this.Name = "InsertUpdateNavControl";
             this.Size = new System.Drawing.Size(597, 26);
             ((System.ComponentModel.ISupportInitialize)(this.ImageCollection1)).EndInit();
@@ -87,7 +87,7 @@ namespace EgitimKurumTakipSistemi.UI.WinForm.UserControls.Controls.NavigatorCont
 
         #endregion
 
-        private DevExpress.XtraEditors.ControlNavigator controlNavigator1;
+        private DevExpress.XtraEditors.ControlNavigator Navigator;
         private DevExpress.Utils.ImageCollection ImageCollection1;
     }
 }

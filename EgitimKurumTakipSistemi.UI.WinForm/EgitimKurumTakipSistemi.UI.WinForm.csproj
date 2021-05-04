@@ -40,6 +40,10 @@
     <Reference Include="DevExpress.Utils.v20.1, Version=20.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.XtraBars.v20.1, Version=20.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.XtraEditors.v20.1, Version=20.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraGrid.v20.1, Version=20.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\DevExpress 20.1\Components\Bin\Framework\DevExpress.XtraGrid.v20.1.dll</HintPath>
+    </Reference>
     <Reference Include="DevExpress.XtraLayout.v20.1, Version=20.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -132,6 +136,9 @@
       <SubType>Component</SubType>
     </Compile>
     <Compile Include="UserControls\Controls\DachtToggleSwitch.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UserControls\Controls\GridControls\DachtGridControl.cs">
       <SubType>Component</SubType>
     </Compile>
     <Compile Include="UserControls\Controls\NavigatorControls\InsertUpdateNavControl.cs">
@@ -327,6 +334,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\export_32x321.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\EgitimKurumTakipSistemi.Common\EgitimKurumTakipSistemi.Common.csproj">
+      <Project>{ef5aa57d-92fd-4e1c-b9e0-19bc1c17f428}</Project>
+      <Name>EgitimKurumTakipSistemi.Common</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
