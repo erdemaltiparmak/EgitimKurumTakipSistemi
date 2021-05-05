@@ -22,6 +22,8 @@ namespace EgitimKurumTakipSistemi.UI.WinForm.UserControls.Controls.GridControls
     [ToolboxItem(true)]
     public class DachtGridControl : GridControl
     {
+        #region Overriden
+
         protected override BaseView CreateDefaultView()
         {
 
@@ -72,28 +74,32 @@ namespace EgitimKurumTakipSistemi.UI.WinForm.UserControls.Controls.GridControls
             collection.Add(new DachtGridInfoRegistrator());
         }
 
+        #endregion
+
+        #region Privates
         private class DachtGridInfoRegistrator : GridInfoRegistrator
         {
             public override BaseView CreateView(GridControl grid) => new DachtGridView(grid);
 
             public override string ViewName => "DachtGridView";
 
-        }
+        } 
+        #endregion
     }
-
-
     public class DachtGridView : GridView
     {
+        #region Constructors
+
         public DachtGridView(GridControl ownerGrid) : base(ownerGrid) { }
         public DachtGridView() { }
+
+        #endregion
 
         #region Properties
         public string StatusBarKisayol { get; set; }
         public string StatusBarKisayolAciklama { get; set; }
         public string StatusBarAciklama { get; set; }
         #endregion
-
-
 
         #region Overriden
 
@@ -144,6 +150,5 @@ namespace EgitimKurumTakipSistemi.UI.WinForm.UserControls.Controls.GridControls
         public string StatusBarAciklama { get; set; }
         #endregion
     }
-
 
 }
