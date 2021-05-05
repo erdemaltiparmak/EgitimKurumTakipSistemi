@@ -48,7 +48,7 @@ namespace EgitimKurumTakipSistemi.UI.WinForm.UserControls.Controls
             //3
             layoutGroup.OptionsTableLayoutGroup.AddColumn();
             layoutGroup.OptionsTableLayoutGroup.ColumnDefinitions[2].SizeType = System.Windows.Forms.SizeType.Absolute;
-            layoutGroup.OptionsTableLayoutGroup.ColumnDefinitions[2].Width = 90;
+            layoutGroup.OptionsTableLayoutGroup.ColumnDefinitions[2].Width = 99;
 
             layoutGroup.OptionsTableLayoutGroup.RowDefinitions.Clear();
 
