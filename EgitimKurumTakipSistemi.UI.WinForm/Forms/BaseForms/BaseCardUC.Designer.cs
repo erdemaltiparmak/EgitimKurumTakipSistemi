@@ -42,7 +42,10 @@ namespace EgitimKurumTakipSistemi.UI.WinForm.Forms.BaseForms
             this.ribbonPageGroup1 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.ribbonStatusBar1 = new DevExpress.XtraBars.Ribbon.RibbonStatusBar();
             this.ribbonPage2 = new DevExpress.XtraBars.Ribbon.RibbonPage();
+            this.repositoryItemDateEdit1 = new DevExpress.XtraEditors.Repository.RepositoryItemDateEdit();
             ((System.ComponentModel.ISupportInitialize)(this.ribbonControl)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.repositoryItemDateEdit1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.repositoryItemDateEdit1.CalendarTimeProperties)).BeginInit();
             this.SuspendLayout();
             // 
             // ribbonControl
@@ -175,6 +178,16 @@ namespace EgitimKurumTakipSistemi.UI.WinForm.Forms.BaseForms
             this.ribbonPage2.Name = "ribbonPage2";
             this.ribbonPage2.Text = "ribbonPage2";
             // 
+            // repositoryItemDateEdit1
+            // 
+            this.repositoryItemDateEdit1.AutoHeight = false;
+            this.repositoryItemDateEdit1.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.repositoryItemDateEdit1.CalendarTimeProperties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.repositoryItemDateEdit1.Mask.MaskType = DevExpress.XtraEditors.Mask.MaskType.DateTimeAdvancingCaret;
+            this.repositoryItemDateEdit1.Name = "repositoryItemDateEdit1";
+            // 
             // BaseCardUC
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
@@ -190,6 +203,8 @@ namespace EgitimKurumTakipSistemi.UI.WinForm.Forms.BaseForms
             this.StatusBar = this.ribbonStatusBar1;
             this.Load += new System.EventHandler(this.BaseCardUC_Load);
             ((System.ComponentModel.ISupportInitialize)(this.ribbonControl)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.repositoryItemDateEdit1.CalendarTimeProperties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.repositoryItemDateEdit1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -210,5 +225,11 @@ namespace EgitimKurumTakipSistemi.UI.WinForm.Forms.BaseForms
         private DevExpress.XtraBars.BarStaticItem statusBarAciklama;
         private DevExpress.XtraBars.BarStaticItem statusBarKisayol;
         private DevExpress.XtraBars.BarStaticItem statusBarKisayolAciklama;
+        private UserControls.Controls.GridControls.DachtGridControl dachtGridControl1;
+        private UserControls.Controls.GridControls.DachtGridView dachtGridView1;
+        private UserControls.Controls.GridControls.DachtGridColumn colID;
+        private UserControls.Controls.GridControls.DachtGridColumn colKod;
+        private UserControls.Controls.GridControls.DachtGridColumn dachtGridColumn1;
+        private DevExpress.XtraEditors.Repository.RepositoryItemDateEdit repositoryItemDateEdit1;
     }
 }
