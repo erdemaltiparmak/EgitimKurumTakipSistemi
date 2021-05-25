@@ -1,4 +1,4 @@
-﻿using DevExpress.XtraEditors;
+﻿using EgitimKurumTakipSistemi.UI.WinForm.Forms.BaseForms;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -11,10 +11,11 @@ using System.Windows.Forms;
 
 namespace EgitimKurumTakipSistemi.UI.WinForm.Forms.OkulForms
 {
-    public partial class OkulListUC : DevExpress.XtraEditors.XtraForm
+    public partial class OkulListUC : BaseListUC
     {
         public OkulListUC()
         {
+            
             InitializeComponent();
         }
     }

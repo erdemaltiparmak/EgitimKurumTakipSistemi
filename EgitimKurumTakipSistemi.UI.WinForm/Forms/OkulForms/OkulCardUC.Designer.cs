@@ -45,12 +45,18 @@ namespace EgitimKurumTakipSistemi.UI.WinForm.Forms.OkulForms
             this.txtOkulAdi = new EgitimKurumTakipSistemi.UI.WinForm.UserControls.Controls.DachtTextEdit();
             this.dachtCodeTextEdit1 = new EgitimKurumTakipSistemi.UI.WinForm.UserControls.Controls.DachtCodeTextEdit();
             this.Root = new DevExpress.XtraLayout.LayoutControlGroup();
-            this.txtKod = new DevExpress.XtraLayout.LayoutControlItem();
+            this.KodLayout = new DevExpress.XtraLayout.LayoutControlItem();
             this.layoutControlItem1 = new DevExpress.XtraLayout.LayoutControlItem();
             this.layoutControlItem2 = new DevExpress.XtraLayout.LayoutControlItem();
-            this.txtIlce = new DevExpress.XtraLayout.LayoutControlItem();
+            this.txtIlcelayoutControlItem5 = new DevExpress.XtraLayout.LayoutControlItem();
             this.layoutControlItem4 = new DevExpress.XtraLayout.LayoutControlItem();
+            this.layoutControlItem3 = new DevExpress.XtraLayout.LayoutControlItem();
+            this.txtIlce = new DevExpress.XtraLayout.LayoutControlItem();
             this.txtAciklama = new DevExpress.XtraLayout.LayoutControlItem();
+            this.txtIlcelayoutContrlayoutControlItem1olItem1 = new DevExpress.XtraLayout.LayoutControlItem();
+            this.txtIlcelayoutControlItem1 = new DevExpress.XtraLayout.LayoutControlItem();
+            this.txtKod = new DevExpress.XtraLayout.LayoutControlItem();
+            this.layoutControlItem5 = new DevExpress.XtraLayout.LayoutControlItem();
             ((System.ComponentModel.ISupportInitialize)(this.ribbonControl)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dachtDataLayoutControl)).BeginInit();
             this.dachtDataLayoutControl.SuspendLayout();
@@ -61,12 +67,18 @@ namespace EgitimKurumTakipSistemi.UI.WinForm.Forms.OkulForms
             ((System.ComponentModel.ISupportInitialize)(this.txtOkulAdi.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dachtCodeTextEdit1.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Root)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.txtKod)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.KodLayout)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.txtIlce)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtIlcelayoutControlItem5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtIlce)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtAciklama)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtIlcelayoutContrlayoutControlItem1olItem1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtIlcelayoutControlItem1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtKod)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem5)).BeginInit();
             this.SuspendLayout();
             // 
             // ribbonControl
@@ -79,7 +91,7 @@ namespace EgitimKurumTakipSistemi.UI.WinForm.Forms.OkulForms
             this.ribbonControl.SearchEditItem.EditWidth = 150;
             this.ribbonControl.SearchEditItem.Id = -5000;
             this.ribbonControl.SearchEditItem.ImageOptions.AllowGlyphSkinning = DevExpress.Utils.DefaultBoolean.True;
-            this.ribbonControl.Size = new System.Drawing.Size(495, 132);
+            this.ribbonControl.Size = new System.Drawing.Size(448, 132);
             this.ribbonControl.Toolbar.ShowCustomizeItem = false;
             // 
             // dachtDataLayoutControl
@@ -95,7 +107,7 @@ namespace EgitimKurumTakipSistemi.UI.WinForm.Forms.OkulForms
             this.dachtDataLayoutControl.Name = "dachtDataLayoutControl";
             this.dachtDataLayoutControl.OptionsFocus.EnableAutoTabOrder = false;
             this.dachtDataLayoutControl.Root = this.Root;
-            this.dachtDataLayoutControl.Size = new System.Drawing.Size(495, 229);
+            this.dachtDataLayoutControl.Size = new System.Drawing.Size(448, 215);
             this.dachtDataLayoutControl.TabIndex = 2;
             this.dachtDataLayoutControl.Text = "dachtDataLayoutControl1";
             // 
@@ -108,7 +120,7 @@ namespace EgitimKurumTakipSistemi.UI.WinForm.Forms.OkulForms
             this.dachtMemoEdit1.Properties.Appearance.BackColor = System.Drawing.Color.LightCyan;
             this.dachtMemoEdit1.Properties.Appearance.Options.UseBackColor = true;
             this.dachtMemoEdit1.Properties.MaxLength = 500;
-            this.dachtMemoEdit1.Size = new System.Drawing.Size(142, 109);
+            this.dachtMemoEdit1.Size = new System.Drawing.Size(370, 95);
             this.dachtMemoEdit1.StatusBarAciklama = "Not Giriniz";
             this.dachtMemoEdit1.StyleController = this.dachtDataLayoutControl;
             this.dachtMemoEdit1.TabIndex = 9;
@@ -116,7 +128,7 @@ namespace EgitimKurumTakipSistemi.UI.WinForm.Forms.OkulForms
             // tglDurum
             // 
             this.tglDurum.EnterMoveNextControl = true;
-            this.tglDurum.Location = new System.Drawing.Point(370, 12);
+            this.tglDurum.Location = new System.Drawing.Point(323, 12);
             this.tglDurum.MenuManager = this.ribbonControl;
             this.tglDurum.Name = "tglDurum";
             this.tglDurum.Properties.Appearance.ForeColor = System.Drawing.Color.Maroon;
@@ -178,7 +190,7 @@ namespace EgitimKurumTakipSistemi.UI.WinForm.Forms.OkulForms
             this.txtOkulAdi.Properties.AppearanceFocused.BackColor = System.Drawing.Color.LightCyan;
             this.txtOkulAdi.Properties.AppearanceFocused.Options.UseBackColor = true;
             this.txtOkulAdi.Properties.MaxLength = 50;
-            this.txtOkulAdi.Size = new System.Drawing.Size(142, 22);
+            this.txtOkulAdi.Size = new System.Drawing.Size(370, 22);
             this.txtOkulAdi.StatusBarAciklama = null;
             this.txtOkulAdi.StyleController = this.dachtDataLayoutControl;
             this.txtOkulAdi.TabIndex = 5;
@@ -204,12 +216,12 @@ namespace EgitimKurumTakipSistemi.UI.WinForm.Forms.OkulForms
             this.Root.EnableIndentsWithoutBorders = DevExpress.Utils.DefaultBoolean.True;
             this.Root.GroupBordersVisible = false;
             this.Root.Items.AddRange(new DevExpress.XtraLayout.BaseLayoutItem[] {
-            this.txtKod,
+            this.KodLayout,
             this.layoutControlItem1,
             this.layoutControlItem2,
-            this.txtIlce,
+            this.txtIlcelayoutControlItem5,
             this.layoutControlItem4,
-            this.txtAciklama});
+            this.layoutControlItem3});
             this.Root.LayoutMode = DevExpress.XtraLayout.Utils.LayoutMode.Table;
             this.Root.Name = "Root";
             columnDefinition1.SizeType = System.Windows.Forms.SizeType.Absolute;
@@ -238,19 +250,19 @@ namespace EgitimKurumTakipSistemi.UI.WinForm.Forms.OkulForms
             rowDefinition3,
             rowDefinition4,
             rowDefinition5});
-            this.Root.Size = new System.Drawing.Size(495, 229);
+            this.Root.Size = new System.Drawing.Size(448, 215);
             this.Root.TextVisible = false;
             // 
-            // txtKod
+            // KodLayout
             // 
-            this.txtKod.AppearanceItemCaption.ForeColor = System.Drawing.Color.Maroon;
-            this.txtKod.AppearanceItemCaption.Options.UseForeColor = true;
-            this.txtKod.Control = this.dachtCodeTextEdit1;
-            this.txtKod.Location = new System.Drawing.Point(0, 0);
-            this.txtKod.Name = "txtKod";
-            this.txtKod.Size = new System.Drawing.Size(200, 24);
-            this.txtKod.Text = "Kod";
-            this.txtKod.TextSize = new System.Drawing.Size(51, 16);
+            this.KodLayout.AppearanceItemCaption.ForeColor = System.Drawing.Color.Maroon;
+            this.KodLayout.AppearanceItemCaption.Options.UseForeColor = true;
+            this.KodLayout.Control = this.dachtCodeTextEdit1;
+            this.KodLayout.Location = new System.Drawing.Point(0, 0);
+            this.KodLayout.Name = "txtKod";
+            this.KodLayout.Size = new System.Drawing.Size(200, 24);
+            this.KodLayout.Text = "Kod";
+            this.KodLayout.TextSize = new System.Drawing.Size(51, 16);
             // 
             // layoutControlItem1
             // 
@@ -259,8 +271,9 @@ namespace EgitimKurumTakipSistemi.UI.WinForm.Forms.OkulForms
             this.layoutControlItem1.Control = this.txtOkulAdi;
             this.layoutControlItem1.Location = new System.Drawing.Point(0, 24);
             this.layoutControlItem1.Name = "layoutControlItem1";
+            this.layoutControlItem1.OptionsTableLayoutItem.ColumnSpan = 3;
             this.layoutControlItem1.OptionsTableLayoutItem.RowIndex = 1;
-            this.layoutControlItem1.Size = new System.Drawing.Size(200, 24);
+            this.layoutControlItem1.Size = new System.Drawing.Size(428, 24);
             this.layoutControlItem1.Text = "Okul Adı";
             this.layoutControlItem1.TextSize = new System.Drawing.Size(51, 16);
             // 
@@ -276,6 +289,43 @@ namespace EgitimKurumTakipSistemi.UI.WinForm.Forms.OkulForms
             this.layoutControlItem2.Text = "İl";
             this.layoutControlItem2.TextSize = new System.Drawing.Size(51, 16);
             // 
+            // txtIlcelayoutControlItem5
+            // 
+            this.txtIlcelayoutControlItem5.AppearanceItemCaption.ForeColor = System.Drawing.Color.Maroon;
+            this.txtIlcelayoutControlItem5.AppearanceItemCaption.Options.UseForeColor = true;
+            this.txtIlcelayoutControlItem5.Control = this.dachtButtonEdit2;
+            this.txtIlcelayoutControlItem5.Location = new System.Drawing.Point(0, 72);
+            this.txtIlcelayoutControlItem5.Name = "txtIlce";
+            this.txtIlcelayoutControlItem5.OptionsTableLayoutItem.RowIndex = 3;
+            this.txtIlcelayoutControlItem5.Size = new System.Drawing.Size(200, 24);
+            this.txtIlcelayoutControlItem5.Text = "İlçe";
+            this.txtIlcelayoutControlItem5.TextSize = new System.Drawing.Size(51, 16);
+            // 
+            // layoutControlItem4
+            // 
+            this.layoutControlItem4.AppearanceItemCaption.ForeColor = System.Drawing.Color.Maroon;
+            this.layoutControlItem4.AppearanceItemCaption.Options.UseForeColor = true;
+            this.layoutControlItem4.Control = this.tglDurum;
+            this.layoutControlItem4.Location = new System.Drawing.Point(311, 0);
+            this.layoutControlItem4.Name = "layoutControlItem4";
+            this.layoutControlItem4.OptionsTableLayoutItem.ColumnIndex = 2;
+            this.layoutControlItem4.Size = new System.Drawing.Size(117, 24);
+            this.layoutControlItem4.TextSize = new System.Drawing.Size(0, 0);
+            this.layoutControlItem4.TextVisible = false;
+            // 
+            // layoutControlItem3
+            // 
+            this.layoutControlItem3.AppearanceItemCaption.ForeColor = System.Drawing.Color.Maroon;
+            this.layoutControlItem3.AppearanceItemCaption.Options.UseForeColor = true;
+            this.layoutControlItem3.Control = this.dachtMemoEdit1;
+            this.layoutControlItem3.Location = new System.Drawing.Point(0, 96);
+            this.layoutControlItem3.Name = "txtAciklama";
+            this.layoutControlItem3.OptionsTableLayoutItem.ColumnSpan = 3;
+            this.layoutControlItem3.OptionsTableLayoutItem.RowIndex = 4;
+            this.layoutControlItem3.Size = new System.Drawing.Size(428, 99);
+            this.layoutControlItem3.Text = "Açıklama";
+            this.layoutControlItem3.TextSize = new System.Drawing.Size(51, 16);
+            // 
             // txtIlce
             // 
             this.txtIlce.AppearanceItemCaption.ForeColor = System.Drawing.Color.Maroon;
@@ -287,18 +337,6 @@ namespace EgitimKurumTakipSistemi.UI.WinForm.Forms.OkulForms
             this.txtIlce.Size = new System.Drawing.Size(200, 24);
             this.txtIlce.Text = "İlçe";
             this.txtIlce.TextSize = new System.Drawing.Size(51, 16);
-            // 
-            // layoutControlItem4
-            // 
-            this.layoutControlItem4.AppearanceItemCaption.ForeColor = System.Drawing.Color.Maroon;
-            this.layoutControlItem4.AppearanceItemCaption.Options.UseForeColor = true;
-            this.layoutControlItem4.Control = this.tglDurum;
-            this.layoutControlItem4.Location = new System.Drawing.Point(358, 0);
-            this.layoutControlItem4.Name = "layoutControlItem4";
-            this.layoutControlItem4.OptionsTableLayoutItem.ColumnIndex = 2;
-            this.layoutControlItem4.Size = new System.Drawing.Size(117, 24);
-            this.layoutControlItem4.TextSize = new System.Drawing.Size(0, 0);
-            this.layoutControlItem4.TextVisible = false;
             // 
             // txtAciklama
             // 
@@ -312,13 +350,61 @@ namespace EgitimKurumTakipSistemi.UI.WinForm.Forms.OkulForms
             this.txtAciklama.Text = "Açıklama";
             this.txtAciklama.TextSize = new System.Drawing.Size(51, 16);
             // 
+            // txtIlcelayoutContrlayoutControlItem1olItem1
+            // 
+            this.txtIlcelayoutContrlayoutControlItem1olItem1.AppearanceItemCaption.ForeColor = System.Drawing.Color.Maroon;
+            this.txtIlcelayoutContrlayoutControlItem1olItem1.AppearanceItemCaption.Options.UseForeColor = true;
+            this.txtIlcelayoutContrlayoutControlItem1olItem1.Control = this.dachtButtonEdit2;
+            this.txtIlcelayoutContrlayoutControlItem1olItem1.Location = new System.Drawing.Point(0, 72);
+            this.txtIlcelayoutContrlayoutControlItem1olItem1.Name = "txtIlcelayoutControlItem1";
+            this.txtIlcelayoutContrlayoutControlItem1olItem1.OptionsTableLayoutItem.RowIndex = 3;
+            this.txtIlcelayoutContrlayoutControlItem1olItem1.Size = new System.Drawing.Size(200, 24);
+            this.txtIlcelayoutContrlayoutControlItem1olItem1.Text = "İlçe";
+            this.txtIlcelayoutContrlayoutControlItem1olItem1.TextSize = new System.Drawing.Size(51, 16);
+            // 
+            // txtIlcelayoutControlItem1
+            // 
+            this.txtIlcelayoutControlItem1.AppearanceItemCaption.ForeColor = System.Drawing.Color.Maroon;
+            this.txtIlcelayoutControlItem1.AppearanceItemCaption.Options.UseForeColor = true;
+            this.txtIlcelayoutControlItem1.Control = this.dachtButtonEdit2;
+            this.txtIlcelayoutControlItem1.Location = new System.Drawing.Point(0, 72);
+            this.txtIlcelayoutControlItem1.Name = "txtIlce";
+            this.txtIlcelayoutControlItem1.OptionsTableLayoutItem.RowIndex = 3;
+            this.txtIlcelayoutControlItem1.Size = new System.Drawing.Size(200, 24);
+            this.txtIlcelayoutControlItem1.Text = "İlçe";
+            this.txtIlcelayoutControlItem1.TextSize = new System.Drawing.Size(51, 16);
+            // 
+            // txtKod
+            // 
+            this.txtKod.AppearanceItemCaption.ForeColor = System.Drawing.Color.Maroon;
+            this.txtKod.AppearanceItemCaption.Options.UseForeColor = true;
+            this.txtKod.Control = this.dachtCodeTextEdit1;
+            this.txtKod.Location = new System.Drawing.Point(0, 0);
+            this.txtKod.Name = "txtKod";
+            this.txtKod.Size = new System.Drawing.Size(200, 24);
+            this.txtKod.Text = "Kod";
+            this.txtKod.TextSize = new System.Drawing.Size(51, 16);
+            // 
+            // layoutControlItem5
+            // 
+            this.layoutControlItem5.AppearanceItemCaption.ForeColor = System.Drawing.Color.Maroon;
+            this.layoutControlItem5.AppearanceItemCaption.Options.UseForeColor = true;
+            this.layoutControlItem5.Control = this.dachtButtonEdit2;
+            this.layoutControlItem5.Location = new System.Drawing.Point(0, 72);
+            this.layoutControlItem5.Name = "txtIlce";
+            this.layoutControlItem5.OptionsTableLayoutItem.RowIndex = 3;
+            this.layoutControlItem5.Size = new System.Drawing.Size(200, 24);
+            this.layoutControlItem5.Text = "İlçe";
+            this.layoutControlItem5.TextSize = new System.Drawing.Size(51, 16);
+            // 
             // OkulCardUC
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(495, 388);
+            this.ClientSize = new System.Drawing.Size(448, 374);
             this.Controls.Add(this.dachtDataLayoutControl);
             this.IconOptions.ShowIcon = false;
+            this.MinimumSize = new System.Drawing.Size(450, 375);
             this.Name = "OkulCardUC";
             this.Text = "Okul Kartı";
             this.Controls.SetChildIndex(this.ribbonControl, 0);
@@ -333,12 +419,18 @@ namespace EgitimKurumTakipSistemi.UI.WinForm.Forms.OkulForms
             ((System.ComponentModel.ISupportInitialize)(this.txtOkulAdi.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dachtCodeTextEdit1.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Root)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.txtKod)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.KodLayout)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.txtIlce)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtIlcelayoutControlItem5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtIlce)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtAciklama)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtIlcelayoutContrlayoutControlItem1olItem1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtIlcelayoutControlItem1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtKod)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem5)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -354,11 +446,17 @@ namespace EgitimKurumTakipSistemi.UI.WinForm.Forms.OkulForms
         private UserControls.Controls.DachtTextEdit txtOkulAdi;
         private UserControls.Controls.DachtCodeTextEdit dachtCodeTextEdit1;
         private DevExpress.XtraLayout.LayoutControlGroup Root;
-        private DevExpress.XtraLayout.LayoutControlItem txtKod;
         private DevExpress.XtraLayout.LayoutControlItem layoutControlItem1;
         private DevExpress.XtraLayout.LayoutControlItem layoutControlItem2;
         private DevExpress.XtraLayout.LayoutControlItem txtIlce;
         private DevExpress.XtraLayout.LayoutControlItem layoutControlItem4;
         private DevExpress.XtraLayout.LayoutControlItem txtAciklama;
+        private DevExpress.XtraLayout.LayoutControlItem txtIlcelayoutContrlayoutControlItem1olItem1;
+        private DevExpress.XtraLayout.LayoutControlItem txtIlcelayoutControlItem1;
+        private DevExpress.XtraLayout.LayoutControlItem layoutControlItem3;
+        private DevExpress.XtraLayout.LayoutControlItem txtKod;
+        private DevExpress.XtraLayout.LayoutControlItem txtIlcelayoutControlItem5;
+        private DevExpress.XtraLayout.LayoutControlItem layoutControlItem5;
+        private DevExpress.XtraLayout.LayoutControlItem KodLayout;
     }
 }
